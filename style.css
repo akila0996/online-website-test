@@ -1,0 +1,90 @@
+body{
+    font-family: "Source Sans 3", sans-serif; 
+    text-transform: capitalize;
+}
+
+/*----------NANO CSS---------*/
+.nano {
+    width: 70%;
+    height: 500px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #f96699;
+    margin-top: 10px;
+}
+.content {
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 12rem 0;
+}
+/*----------ABOUT CSS---------*/
+.about {
+    width: 70%;
+    height: 500px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #3acccd;
+    margin-top: 60px;
+}
+.about-content {
+    display: inline-block;
+    width: 49%;
+    line-height: 2;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-content span{
+    color: #90fd70;
+}
+.user {
+    display: inline-block;
+    width: 50%;
+    vertical-align:top;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 8rem;
+}
+.user p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+div#inner-div {
+    padding: 5rem;
+}
+  /*----------MEDIA QUERY---------*/
+
+                     /*----------mobile---------*/
+ @media (max-width:600px){
+    .nano {
+        width: 90%;
+    }
+    div#inner-div {
+        padding: 0rem;
+
+    }
+    .user{
+        margin-top: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .about-content {
+        text-align: center;
+        margin-top: 0;
+        display: block;
+        width: 100%;
+    }
+    .about{
+        width: 90%;
+        height: 600px;
+    }
+    .user p {
+        font-size: 25px;
+    }
+    
+ }
